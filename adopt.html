@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lend A Helping Paw</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway&family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="lahp.css" > 
+    </head>
+
+    <body>
+        
+        <div class="box-area">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html"> Lend A Helping Paw</a>
+                    </div>
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a>Pets</a>
+                                <ul>
+                                    <li><a href="dogs.html">Dogs</a></li>
+                                    <li><a href="cats.html">Cats</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="contacts.html">Contacts</a></li>
+                            <li><a href="adopt.html">Adopt</a></li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+            </header>
+        
+        
+        </div>
+        
+        <div class="banner-area">
+            <h2> Giving them A happy home</h2>
+        </div>
+        
+        <div class="content-area">
+            <div class="wrapper">
+                <section class="section">
+                    <h1> All of our dogs and cats are adoptable and if you want to adopt one, please fill out this form so we can get in touch. </h1>
+                    
+                    <h2> Lend A Helping Paw:</h2>
+                    <form name="register" action="process.php" method="get">
+
+        <fieldset>
+            
+          <legend>Your Information</legend>
+          <ul>
+            <li><label for="first-name">First Name:</label> <input type="text" name="firstname" id="first-name"></li>
+            <li><label for="last-name">Last Name:</label> <input type="text" name="lastname" id="last-name"></li>
+            <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+            <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+            <li>Any Questions?<br>
+            <textarea name="Questions" rows="4" cols="100" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+          </ul>
+        </fieldset>
+
+        <h2>Pets you are interested in:</h2>
+            
+        <fieldset>
+          <legend>Pets</legend>
+          <fieldset>
+          <legend>Dogs <em>(Choose the dog/dogs you are interested)</em></legend>
+            <ul>
+              <li><label><input type="checkbox" name="dog[]" value="Buster"> Buster</label></li>
+              <li><label><input type="checkbox" name="dog[]" value="Tony"> Tony</label></li>
+              <li><label><input type="checkbox" name="dog[]" value="Marley"> Marley</label></li>
+            
+              
+            </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Cats <em>(Choose cat/cats you are interested)</em></legend>
+            <ul>
+              <li><label><input type="checkbox" name="cat[]" value="Lynx"> Lynx </label></li>
+              <li><label><input type="checkbox" name="cat[]" value="Mocha"> Ceej</label></li>
+              <li><label><input type="checkbox" name="cat[]" value="Mocha"> Mocha</label></li>
+              
+            </ul>
+        </fieldset>
+
+        </fieldset>
+
+        <p><input type="submit" value="Send ">
+        <input type="reset"></p>
+
+        </form>
+                         
+                </section>
+                
+
+        <footer>
+            <p>Copyright &copy; 2022 Lead A Helping Paw, Inc</p>
+            <div>
+                <p> &#124; <a href="contacts.html">contact us</a> &#124; <a href="about.html">About us</a> &#124; <a href="adopt.html"> Adopt</a> &#124; Designed by Luis Vallejo </p>
+            </div>
+        </footer>
+                
+            </div>
+        
+        
+        </div>
+        
+
+        
+
+    </body>
+</html>
